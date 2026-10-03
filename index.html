@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Omar Mohamed - Computer Science student at E-JUST and web developer.">
+    <title>Omar Mohamed | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <a href="#home" class="logo">Omar<span>.</span></a>
+
+    <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#learning">Learning</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+<section class="home" id="home">
+    <div class="home-content">
+        <p class="intro">Hello, I'm</p>
+        <h1>Omar Mohamed</h1>
+        <h2>Computer Science Student &amp; Web Developer</h2>
+        <p class="home-text">
+            I study computer science at E-JUST and build websites.
+            I'm also exploring cybersecurity.
+        </p>
+
+        <div class="home-buttons">
+            <a href="#projects" class="btn">View my work</a>
+            <a href="#contact" class="btn btn-outline">Contact me</a>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/omar-mohamed-902346411/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/om3530652-del" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="home-image" aria-hidden="true">
+        <div class="code-circle"><i class="fa-solid fa-code"></i></div>
+    </div>
+</section>
+
+<section class="about section" id="about">
+    <div class="section-title">
+        <span>About me</span>
+        <h2>Who I am</h2>
+    </div>
+
+    <div class="about-content">
+        <div class="about-text">
+            <h3>Building my path in web development</h3>
+            <p>
+                I'm a Computer Science student at Egypt-Japan University of Science
+                and Technology (E-JUST), interested in programming, web development,
+                and cybersecurity.
+            </p>
+            <p>
+                I keep improving my skills and learning modern tools so I can
+                work as a professional developer.
+            </p>
+        </div>
+
+        <div class="about-info">
+            <div class="info-box">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div><span>Education</span><p>Computer Science, E-JUST</p></div>
+            </div>
+            <div class="info-box">
+                <i class="fa-solid fa-shield-halved"></i>
+                <div><span>Focus</span><p>Cybersecurity</p></div>
+            </div>
+            <div class="info-box">
+                <i class="fa-solid fa-location-dot"></i>
+                <div><span>Location</span><p>Alexandria, Egypt</p></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="skills section" id="skills">
+    <div class="section-title">
+        <span>My skills</span>
+        <h2>Technical skills</h2>
+    </div>
+
+    <div class="skills-container">
+        <div class="skill-card"><i class="fa-solid fa-code"></i><h3>C++</h3><p>Programming &amp; problem solving</p></div>
+        <div class="skill-card"><i class="fa-brands fa-html5"></i><h3>HTML</h3><p>Web structure &amp; semantic HTML</p></div>
+        <div class="skill-card"><i class="fa-brands fa-css3-alt"></i><h3>CSS</h3><p>Responsive web design</p></div>
+        <div class="skill-card"><i class="fa-brands fa-js"></i><h3>JavaScript</h3><p>Interactive web development</p></div>
+        <div class="skill-card"><i class="fa-brands fa-java"></i><h3>Java</h3><p>Object-oriented programming</p></div>
+        <div class="skill-card"><i class="fa-brands fa-github"></i><h3>Git &amp; GitHub</h3><p>Version control &amp; collaboration</p></div>
+    </div>
+</section>
+
+<section class="projects section" id="projects">
+    <div class="section-title">
+        <span>Projects</span>
+        <h2>What I've built</h2>
+    </div>
+
+    <div class="projects-container">
+        <article class="project-card">
+            <div class="project-top">
+                <i class="fa-solid fa-folder-open"></i>
+                <a href="https://github.com/om3530652-del" target="_blank" rel="noopener noreferrer" aria-label="Project on GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+            <h3>Personal Portfolio</h3>
+            <p>A responsive one-page portfolio with a mobile menu, scroll-aware navigation, and animated progress bars.</p>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+        </article>
+
+        <!-- Copy the <article> above to add more projects. Change the title, text, tags and GitHub link. -->
+    </div>
+</section>
+
+<section class="learning section" id="learning">
+    <div class="section-title">
+        <span>Currently learning</span>
+        <h2>My learning progress</h2>
+    </div>
+
+    <div class="learning-container">
+        <div class="learning-card">
+            <div class="learning-header">
+                <div class="learning-title"><i class="fa-solid fa-laptop-code"></i><h3>Frontend Development</h3></div>
+                <span class="progress-number">70%</span>
+            </div>
+            <div class="progress-bar"><div class="progress" data-progress="70"></div></div>
+        </div>
+
+        <div class="learning-card">
+            <div class="learning-header">
+                <div class="learning-title"><i class="fa-brands fa-js"></i><h3>Advanced JavaScript</h3></div>
+                <span class="progress-number">90%</span>
+            </div>
+            <div class="progress-bar"><div class="progress" data-progress="90"></div></div>
+        </div>
+
+        <div class="learning-card">
+            <div class="learning-header">
+                <div class="learning-title"><i class="fa-brands fa-react"></i><h3>React</h3></div>
+                <span class="progress-number">25%</span>
+            </div>
+            <div class="progress-bar"><div class="progress" data-progress="25"></div></div>
+        </div>
+
+        <div class="learning-card">
+            <div class="learning-header">
+                <div class="learning-title"><i class="fa-solid fa-server"></i><h3>Backend Development</h3></div>
+                <span class="progress-number">0%</span>
+            </div>
+            <div class="progress-bar"><div class="progress" data-progress="0"></div></div>
+        </div>
+    </div>
+</section>
+
+<section class="education section" id="education">
+    <div class="section-title">
+        <span>Education</span>
+        <h2>My education</h2>
+    </div>
+
+    <div class="education-card">
+        <div class="education-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <div class="education-content">
+            <span>2025 - 2029</span>
+            <h3>Egypt-Japan University of Science and Technology</h3>
+            <p>Computer Science</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact section" id="contact">
+    <div class="section-title">
+        <span>Get in touch</span>
+        <h2>Contact me</h2>
+    </div>
+
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <div>
+                    <span>LinkedIn</span>
+                    <a href="https://www.linkedin.com/in/omar-mohamed-902346411/" target="_blank" rel="noopener noreferrer">Omar Mohamed</a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="fa-brands fa-github"></i>
+                <div>
+                    <span>GitHub</span>
+                    <a href="https://github.com/om3530652-del" target="_blank" rel="noopener noreferrer">github.com/om3530652-del</a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                    <span>Phone</span>
+                    <a href="tel:01093114613">01093114613</a>
+                </div>
+            </div>
+        </div>
+
+        <form class="contact-form">
+            <div class="input-group">
+                <input type="text" name="name" placeholder="Your name" aria-label="Your name" required>
+                <input type="email" name="email" placeholder="Your email" aria-label="Your email" required>
+            </div>
+            <input type="text" name="subject" placeholder="Subject" aria-label="Subject" required>
+            <textarea name="message" rows="6" placeholder="Your message" aria-label="Your message" required></textarea>
+            <button type="submit" class="btn">Send message</button>
+            <p class="form-note" role="status"></p>
+        </form>
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-text">
+            <h3>Omar<span>.</span></h3>
+            <p>Computer Science Student &amp; Web Developer</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/omar-mohamed-902346411/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/om3530652-del" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+    <p class="footer-bottom">&copy; 2026 Omar Mohamed. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
